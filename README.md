@@ -2,10 +2,10 @@ FDDaaMI
 =======
 Floppy Disk Drive as a Musical Instrument
 
-GPLv3 ÃÖ°í!
+GPLv3 ìµœê³ !
 --
 
-Copyright (C) 2013 ·ùÇü¿í
+Copyright (C) 2013 ë¥˜í˜•ìš±
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
