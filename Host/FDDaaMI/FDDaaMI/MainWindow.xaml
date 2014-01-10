@@ -1,8 +1,8 @@
 ﻿<Window x:Class="FDDaaMI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="FDDaaMI" Height="250" Width="525" ResizeMode="NoResize">
     <Grid>
-        
+        <TextBlock FontSize="96" VerticalAlignment="Center" HorizontalAlignment="Center">FDDaaMI</TextBlock>
     </Grid>
 </Window>

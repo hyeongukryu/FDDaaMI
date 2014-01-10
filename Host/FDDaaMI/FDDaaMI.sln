@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDDaaMI", "FDDaaMI\FDDaaMI.csproj", "{3B361A50-D75B-4830-8DBA-F423F67F7DDC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanford.Multimedia.Midi", "Sanford.Multimedia.Midi\Sanford.Multimedia.Midi.csproj", "{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,16 +25,6 @@ Global
 		{3B361A50-D75B-4830-8DBA-F423F67F7DDC}.Release|Mixed Platforms.Build.0 = Release|x86
 		{3B361A50-D75B-4830-8DBA-F423F67F7DDC}.Release|x86.ActiveCfg = Release|x86
 		{3B361A50-D75B-4830-8DBA-F423F67F7DDC}.Release|x86.Build.0 = Release|x86
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

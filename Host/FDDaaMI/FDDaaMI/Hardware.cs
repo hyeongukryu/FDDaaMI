@@ -10,11 +10,16 @@ namespace FDDaaMI
     {
         public SerialPort Port { get; private set; }
 
+        public double Factor { get; set; }
+        public bool Software { get; set; }
+        
         public Hardware()
         {
+            Factor = 1;
+
             Port = new SerialPort
             {
-                PortName = "COM3",
+                PortName = "COM4",
                 BaudRate = 38400,
                 DataBits = 8,
                 Parity = Parity.None,
@@ -34,6 +39,8 @@ namespace FDDaaMI
             }
             else
             {
+                frequency *= Factor;
+
                 var delay = 1000 * 1000 / frequency;
                 SoundDelayMicrosecond(channel, (int)delay);
             }
@@ -46,8 +53,15 @@ namespace FDDaaMI
 
         public void SoundDelayMicrosecond(int channel, int delay)
         {
+#if DEBUG
             Console.WriteLine(channel + " " + delay);
-            
+#endif
+   
+            if (Software)
+            {
+                return;
+            }
+
             int high = (delay >> 8) & 0xFF;
             int low = delay & 0xFF;
             var data = new[] { (byte)channel, (byte)high, (byte)low };
