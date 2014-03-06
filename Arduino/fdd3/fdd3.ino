@@ -133,6 +133,7 @@ int last_delay = 0;
 #define FDD_POS_MAX 80
 
 #define MODE_INPLACE
+#undef MODE_INPLACE
 
 void loop()
 {
