@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3B361A50-D75B-4830-8DBA-F423F67F7DDC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FDDaaMI</RootNamespace>
     <AssemblyName>FDDaaMI</AssemblyName>
